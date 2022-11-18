@@ -561,6 +561,10 @@ video {
   flex-direction: column;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -585,12 +589,37 @@ video {
   background-color: hsla(7, 99%, 70%, 40%);
 }
 
+.bg-cerises {
+  --tw-bg-opacity: 1;
+  background-color: hsl(167 40% 24% / var(--tw-bg-opacity));
+}
+
 .bg-img_header {
   background-image: url('/images/mobile/image-header.jpg');
 }
 
+.bg-cerises {
+  background-image: url('/images/mobile/image-graphic-design.jpg');
+}
+
+.bg-clementines {
+  background-image: url('/images/mobile/image-photography.jpg');
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-9 {
+  padding: 2.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .pr-4 {
@@ -641,6 +670,38 @@ video {
   padding-bottom: 4rem;
 }
 
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -689,6 +750,10 @@ video {
   letter-spacing: 0.05em;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -702,4 +767,9 @@ video {
 .text-gris-p {
   --tw-text-opacity: 1;
   color: hsl(232 10% 55% / var(--tw-text-opacity));
+}
+
+.text-cerises {
+  --tw-text-opacity: 1;
+  color: hsl(167 40% 24% / var(--tw-text-opacity));
 }
