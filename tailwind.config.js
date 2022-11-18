@@ -17,7 +17,8 @@ module.exports = {
         'titres' : 'hsl(212, 27%, 19%)',
         'barre-more' : 'hsla(51, 100%, 49%, 40%)',
         'barre-more-pink' : 'hsla(7, 99%, 70%, 40%)',
-        'cerises' : 'hsl(167, 40%, 24%)'
+        'cerises' : 'hsl(167, 40%, 24%)',
+        'clementine' : 'hsl(198, 62%, 26%)'
       }
     },
   },
