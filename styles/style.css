@@ -553,12 +553,24 @@ video {
   width: 8rem;
 }
 
+.w-20 {
+  width: 5rem;
+}
+
+.w-3\/6 {
+  width: 50%;
+}
+
 .grow {
   flex-grow: 1;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-end {
@@ -573,12 +585,40 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .self-center {
   align-self: center;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .bg-barre-more {
@@ -592,6 +632,11 @@ video {
 .bg-cerises {
   --tw-bg-opacity: 1;
   background-color: hsl(167 40% 24% / var(--tw-bg-opacity));
+}
+
+.bg-footer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(159 210 197 / var(--tw-bg-opacity));
 }
 
 .bg-img_header {
@@ -608,6 +653,10 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .pr-4 {
@@ -670,6 +719,54 @@ video {
   padding-left: 0.5rem;
 }
 
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pr-9 {
+  padding-right: 2.25rem;
+}
+
+.pl-9 {
+  padding-left: 2.25rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pr-96 {
+  padding-right: 24rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -722,6 +819,10 @@ video {
   letter-spacing: 0.025em;
 }
 
+.tracking-more-wide {
+  letter-spacing: .4em;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -745,4 +846,19 @@ video {
 .text-clementine {
   --tw-text-opacity: 1;
   color: hsl(198 62% 26% / var(--tw-text-opacity));
+}
+
+.text-grey-client {
+  --tw-text-opacity: 1;
+  color: hsl(210 4% 67% / var(--tw-text-opacity));
+}
+
+.text-client-p {
+  --tw-text-opacity: 1;
+  color: hsl(212 27% 19% / var(--tw-text-opacity));
+}
+
+.text-svg {
+  --tw-text-opacity: 1;
+  color: rgb(68 119 105 / var(--tw-text-opacity));
 }
