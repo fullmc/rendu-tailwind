@@ -659,6 +659,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-20 {
+  padding: 5rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -767,6 +771,14 @@ video {
   padding-right: 24rem;
 }
 
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -797,6 +809,10 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .uppercase {
