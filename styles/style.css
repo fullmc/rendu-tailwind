@@ -533,6 +533,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -918,6 +922,10 @@ video {
 
   .dsk\:flex-row {
     flex-direction: row;
+  }
+
+  .dsk\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .dsk\:flex-col {
