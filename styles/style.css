@@ -545,18 +545,6 @@ video {
   height: 0.5rem;
 }
 
-.h-2\/4 {
-  height: 50%;
-}
-
-.h-3\/4 {
-  height: 75%;
-}
-
-.h-full {
-  height: 100%;
-}
-
 .w-screen {
   width: 100vw;
 }
@@ -571,6 +559,10 @@ video {
 
 .w-3\/6 {
   width: 50%;
+}
+
+.w-360 {
+  width: 360px;
 }
 
 .grow {
@@ -672,10 +664,6 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-10 {
   padding: 2.5rem;
 }
@@ -696,12 +684,20 @@ video {
   padding-bottom: 2rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
+.pr-6 {
+  padding-right: 1.5rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pt-10 {
@@ -710,14 +706,6 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
 }
 
 .pb-16 {
@@ -740,16 +728,16 @@ video {
   padding-top: 3.5rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
 .pr-10 {
   padding-right: 2.5rem;
 }
 
 .pl-10 {
   padding-left: 2.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .pb-12 {
@@ -778,6 +766,14 @@ video {
 
 .pl-20 {
   padding-left: 5rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
 }
 
 .text-center {
@@ -908,28 +904,16 @@ video {
     display: none;
   }
 
-  .dsk\:h-2\/4 {
-    height: 50%;
-  }
-
-  .dsk\:h-3\/4 {
-    height: 75%;
-  }
-
-  .dsk\:h-full {
-    height: 100%;
-  }
-
-  .dsk\:w-screen {
-    width: 100vw;
+  .dsk\:h-599 {
+    height: 599px;
   }
 
   .dsk\:w-3\/6 {
     width: 50%;
   }
 
-  .dsk\:w-3\/4 {
-    width: 75%;
+  .dsk\:w-1440 {
+    width: 1440px;
   }
 
   .dsk\:flex-row {
@@ -940,12 +924,20 @@ video {
     flex-direction: column;
   }
 
+  .dsk\:items-center {
+    align-items: center;
+  }
+
   .dsk\:justify-start {
     justify-content: flex-start;
   }
 
   .dsk\:justify-center {
     justify-content: center;
+  }
+
+  .dsk\:gap-10 {
+    gap: 2.5rem;
   }
 
   .dsk\:bg-img_header {
@@ -956,12 +948,16 @@ video {
     background-image: url('/images/desktop/image-graphic-design.jpg');
   }
 
+  .dsk\:bg-clementines_dsk {
+    background-image: url('/images/desktop/image-photography.jpg');
+  }
+
   .dsk\:bg-cover {
     background-size: cover;
   }
 
-  .dsk\:bg-center {
-    background-position: center;
+  .dsk\:bg-top {
+    background-position: top;
   }
 
   .dsk\:pt-32 {
@@ -984,13 +980,67 @@ video {
     padding-left: 3rem;
   }
 
+  .dsk\:pr-36 {
+    padding-right: 9rem;
+  }
+
+  .dsk\:pl-36 {
+    padding-left: 9rem;
+  }
+
+  .dsk\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .dsk\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .dsk\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .dsk\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .dsk\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .dsk\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .dsk\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .dsk\:pt-4 {
+    padding-top: 1rem;
+  }
+
+  .dsk\:pt-28 {
+    padding-top: 7rem;
+  }
+
   .dsk\:text-left {
     text-align: left;
   }
 
-  .dsk\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .dsk\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .dsk\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .dsk\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .dsk\:tracking-more-wide {

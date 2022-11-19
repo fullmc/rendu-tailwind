@@ -9,6 +9,7 @@ module.exports = {
         'cerises' : "url('/images/mobile/image-graphic-design.jpg')",
         'cerises_dsk' : "url('/images/desktop/image-graphic-design.jpg')",
         'clementines' : "url('/images/mobile/image-photography.jpg')", 
+        'clementines_dsk' : "url('/images/desktop/image-photography.jpg')"
       },
       fontFamily: {
         'Barlow' : ['Barlow', 'sans-serif'],
@@ -34,6 +35,13 @@ module.exports = {
         'dsk': '1440px',
         'mb': '375px'
       },
+      height : {
+        '599' : '599px'
+      },
+      width : {
+        '360' : '360px',
+        '1440' : '1440px',
+      }
     },
   },
   plugins: [],
