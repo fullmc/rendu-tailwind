@@ -12,58 +12,71 @@
 </head>
 
 <body>
-  <!-- 
-  About
-  Services
-  Projects
-  Contact
-  -->
-  <header class="bg-img_header bg-cover h-screen w-screen relative flex flex-col ">
-    <nav class="flex justify-between pr-4 pl-4 pt-10 pb-8">
+  <!--Navbar-->
+  <header class="bg-img_header_mb bg-cover h-screen w-screen relative flex flex-col dsk:bg-cover bg-no-repeat bg-bottom dsk:bg-img_header">
+    <nav class="flex justify-between pr-12 pl-12 pt-12 pb-8 dsk:flex-row">
       <img src="images/logo.svg">
-      <img src="images/icon-hamburger.svg">
+      <img src="images/icon-hamburger.svg" class="dsk:hidden">
+      <ul class="dsk:flex justify-around gap-12 text-white mb:hidden">
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="" class="bg-white rounded-full p-2 pr-4 pl-4 uppercase font-Fraunces tracking-wider text-dark-blue text-sm">Contact</a></li>
+      </ul>
     </nav>
-    <h1 class="text-white text-center pt-20 pb-20 text-5xl font-Fraunces uppercase tracking-widest">We are creatives</h1>
-    <img src="images/icon-arrow-down.svg" class="h-40 self-center">
+  <!--We are creative-->
+    <h1 class="text-white text-center pt-10 pb-8 text-5xl font-Fraunces uppercase tracking-widest dsk:tracking-more-wide dsk:pt-32 dsk:pb-28">We are creatives</h1>
+    <img src="images/icon-arrow-down.svg" class="h-48 self-center">
     </div>
   </header>
 
-  <img src="images/mobile/image-transform.jpg">
+  <!--Transform-->
+  <img src="images/mobile/image-transform.jpg" class="dsk:hidden">
 
-  <section>
-    <h1 class="font-Fraunces text-center text-3xl pr-12 pl-12 pt-10 tracking-wider text-titres">Transform your brand</h1>
+  <section class="dsk:flex">
+    <div class="dsk:flex dsk:flex-col dsk:justify-center dsk:pr-28 dsk:pl-28 ">
+      <h1 class="font-Fraunces text-center text-3xl pr-12 pl-12 pt-10 tracking-wider text-titres dsk:text-5xl dsk:text-left dsk:-pl-20">Transform your brand</h1>
 
-    <p class="pt-8 pr-6 pl-6 text-gris-p text-center text-lg leading-7 font-Barlow ">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <p class="pt-8 pr-6 pl-6 text-gris-p text-center text-lg leading-7 font-Barlow dsk:text-left dsk:pl-12">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      
+      <div class=" relative flex justify-center dsk:justify-start dsk:pl-12">
+        <p class="font-Fraunces text-center pt-10 pb-16 text-titres uppercase tracking-widest text-sm">Learn more</p>
+        <div class="bg-barre-more absolute rounded-lg bottom-16 -z-10 w-32 h-2 dsk:-ml-2"></div>
+      </div>
+    </div>
+    <img src="images/mobile/image-transform.jpg" class="dsk:w-3/6">
+  </section>
 
-    <div class=" relative flex justify-center">
-      <p class="font-Fraunces text-center pt-10 pb-16 text-titres uppercase tracking-widest text-sm">Learn more</p>
-      <div class="bg-barre-more absolute rounded-lg bottom-16 -z-10 w-32 h-2"></div>
+  <!--Stand out-->
+  <img src="images/mobile/image-stand-out.jpg" class="dsk:hidden">
+
+  <section class="dsk:flex">
+    <img src="images/mobile/image-stand-out.jpg" class="dsk:w-3/6">
+    <div class="dsk:flex dsk:flex-col dsk:justify-center dsk:pr-28 dsk:pl-28">
+      <h1 class="font-Fraunces text-center text-3xl pr-12 pl-12 pt-10 tracking-wider text-titres dsk:text-5xl dsk:text-left dsk:-pl-20">Stand out to the right audience</h1>
+
+      <p class="pt-8 pr-6 pl-6 text-gris-p text-center text-lg leading-7 font-Barlow dsk:text-left dsk:pl-12 dsk:mr-2">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+
+      <div class=" relative flex justify-center dsk:justify-start dsk:pl-12">
+        <p class="font-Fraunces text-center pt-10 pb-16 text-titres uppercase tracking-widest text-sm">Learn more</p>
+        <div class="bg-barre-more-pink absolute rounded-lg bottom-16 -z-10 w-32 h-2"></div>
+      </div>
     </div>
   </section>
 
-  <img src="images/mobile/image-stand-out.jpg">
+  <!--Graphic design-->
+  <div class="dsk:flex">
+    <section class="bg-cerises bg-cover h-screen w-screen relative flex flex-col justify-end pb-14 dsk:bg-cerises_dsk dsk:bg-cover dsk:bg-center "> 
+      <h1 class="font-Fraunces text-center text-3xl pr-12 pl-12 tracking-wide text-cerises">Graphic design</h1>
+      <p class="text-cerises text-center pt-8 pr-2 pl-2">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+    </section>
 
-  <section>
-    <h1 class="font-Fraunces text-center text-3xl pr-12 pl-12 pt-10 tracking-wider text-titres">Stand out to the right audience</h1>
-
-    <p class="pt-8 pr-6 pl-6 text-gris-p text-center text-lg leading-7 font-Barlow ">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-
-    <div class=" relative flex justify-center">
-      <p class="font-Fraunces text-center pt-10 pb-16 text-titres uppercase tracking-widest text-sm">Learn more</p>
-      <div class="bg-barre-more-pink absolute rounded-lg bottom-16 -z-10 w-32 h-2"></div>
-    </div>
-  </section>
-
-  <section class="bg-cerises bg-cover h-screen w-screen relative flex flex-col justify-end pb-14"> 
-    <h1 class="font-Fraunces text-center text-3xl pr-12 pl-12 tracking-wide text-cerises">Graphic design</h1>
-    <p class="text-cerises text-center pt-8 pr-2 pl-2">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-  </section>
-
-  <section class="bg-clementines bg-cover h-screen w-screen relative flex flex-col justify-end pb-14">
-    <h1 class="font-Fraunces text-center text-3xl pr-12 pl-12 tracking-wide text-clementine">Photography</h1>
-    <p class="text-clementine text-center pt-8 pr-2 pl-2">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-  </section>    
-
+    <!--Photography-->
+    <section class="bg-clementines bg-cover h-screen w-screen relative flex flex-col justify-end pb-14 ">
+      <h1 class="font-Fraunces text-center text-3xl pr-12 pl-12 tracking-wide text-clementine">Photography</h1>
+      <p class="text-clementine text-center pt-8 pr-2 pl-2">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    </section>    
+  </div>
   <!--Clients-->
   <div>
     <h1 class="font-Fraunces text-center uppercase tracking-more-wide text-sm text-grey-client p-10 pt-14">Client testimonials</h1>
@@ -99,7 +112,9 @@
     </div>
   </section>
 
+  <!--footer-->
   <footer>
+    <!--images-->
     <section>
       <div class="flex w-3/6">
         <img src="images/mobile/image-gallery-milkbottles.jpg" alt="">
@@ -110,7 +125,7 @@
         <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="">
       </div>
     </section>
-
+    <!--liens-->
     <section class="bg-footer">
       <div class="flex flex-col justify-center items-center pt-10">
         <img src="images/logo_footer.svg">
@@ -120,7 +135,7 @@
           <li><a href="">Projects</a></li>
         </ul>
       </div> 
-
+      <!---->
       <div class="flex justify-between pr-20 pl-20 pb-12">
         <img src="images/icon-facebook.svg" alt="">
         <img src="images/icon-instagram.svg" alt="">
@@ -130,7 +145,6 @@
       <p class="text-center text-sm text-cerises ">Coded by <a href="#" class="font-bold">Marie-Claire LAMBO</a>.</p>
     </section>
   </footer>
-
 
 </body>
 </html>

@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage : {
-        'img_header' : "url('/images/mobile/image-header.jpg')",
+        'img_header' : "url('/images/desktop/image-header.jpg')",
+        'img_header_mb' : "url('/images/mobile/image-header.jpg')",
         'cerises' : "url('/images/mobile/image-graphic-design.jpg')",
+        'cerises_dsk' : "url('/images/desktop/image-graphic-design.jpg')",
         'clementines' : "url('/images/mobile/image-photography.jpg')", 
       },
       fontFamily: {
@@ -23,9 +25,14 @@ module.exports = {
         'client-p' : 'hsl(212, 27%, 19%)',
         'footer' : 'rgb(159, 210, 197)',
         'svg' : 'rgb(68,119,105)',
+        'dark-blue' : 'hsl(212, 27%, 19%)'
       },
       letterSpacing: {
         'more-wide':'.4em',
+      },
+      screens : {
+        'dsk': '1440px',
+        'mb': '375px'
       },
     },
   },
