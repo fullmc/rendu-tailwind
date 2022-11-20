@@ -569,6 +569,10 @@ video {
   width: 360px;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -918,6 +922,10 @@ video {
 
   .dsk\:w-1440 {
     width: 1440px;
+  }
+
+  .dsk\:w-360 {
+    width: 360px;
   }
 
   .dsk\:flex-row {
